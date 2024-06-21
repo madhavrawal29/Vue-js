@@ -1,9 +1,11 @@
-<script setup></script>
+<script setup>
+import MyFirstComponent from './components/MyFirstComponent.vue'
+</script>
 
 <template>
   <header>
     <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
-
+    <MyFirstComponent />
     <div class="wrapper"></div>
   </header>
 </template>
