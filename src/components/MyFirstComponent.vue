@@ -18,7 +18,7 @@
   <button @mousemove="doubleClickfn('Mouse Move button')">Mouse Move Button</button>
   <br />
   <h1>Count value {{ count }}</h1>
-  <button @click="increaseCount()">Click to increase count</button>
+  <button @click="increaseCount">Click to increase count</button>
 </template>
 
 <script>
