@@ -1,41 +1,22 @@
 <script setup>
 import MyFirstComponent from './components/MyFirstComponent.vue'
 import TwoWayBindingParent from './TwoWayBindingParent.vue'
+import AllComponents from './components/AllComponents.vue'
+import GettingInputValue from './components/GettingInputValue.vue'
 </script>
 
 <template>
   <header>
-    <MyFirstComponent />
-    <TwoWayBindingParent />
-    <div class="wrapper"></div>
+    <!-- <MyFirstComponent /> -->
+    <!-- <TwoWayBindingParent /> -->
+    <AllComponents />
   </header>
 </template>
 
 <style scoped>
 header {
-  line-height: 1.5;
-}
-
-.logo {
-  display: block;
-  margin: 0 auto 2rem;
-}
-
-@media (min-width: 1024px) {
-  header {
-    display: flex;
-    place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
-  }
-
-  .logo {
-    margin: 0 2rem 0 0;
-  }
-
-  header .wrapper {
-    display: flex;
-    place-items: flex-start;
-    flex-wrap: wrap;
-  }
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 </style>
