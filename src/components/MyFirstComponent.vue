@@ -11,14 +11,14 @@
   <h2>My name throught Methods {getName()}</h2> -->
 
   <!-- Events Handling -->
-  <button @click="clickfn()">Button</button>
+  <!-- <button @click="clickfn()">Button</button>
   <br />
   <button @dblclick="doubleClickfn('Double clicked button')">Double Click Button</button>
   <br />
   <button @mousemove="doubleClickfn('Mouse Move button')">Mouse Move Button</button>
   <br />
   <h1>Count value {{ count }}</h1>
-  <button @click="increaseCount">Click to increase count</button>
+  <button @click="increaseCount">Click to increase count</button> -->
 </template>
 
 <script>

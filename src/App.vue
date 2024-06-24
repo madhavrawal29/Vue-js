@@ -1,11 +1,12 @@
 <script setup>
 import MyFirstComponent from './components/MyFirstComponent.vue'
+import TwoWayBindingParent from './TwoWayBindingParent.vue'
 </script>
 
 <template>
   <header>
-    <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
     <MyFirstComponent />
+    <TwoWayBindingParent />
     <div class="wrapper"></div>
   </header>
 </template>
