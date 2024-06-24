@@ -1,12 +1,14 @@
 <!-- AllComponents.vue -->
 <script setup>
 import GettingInputValue from './GettingInputValue.vue'
+import ifElse from './ifElse.vue'
 </script>
 
 <template>
   <div class="container">
     <h1>ALL COMPONENTS</h1>
-    <GettingInputValue />
+    <!-- <GettingInputValue /> -->
+    <ifElse />
   </div>
 </template>
 
