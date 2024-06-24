@@ -3,6 +3,7 @@
 import GettingInputValue from './GettingInputValue.vue'
 import ifElse from './ifElse.vue'
 import ForLoopAndList from './ForLoopAndList.vue'
+import PassingDataParentToChild from './PassingDataParentToChild.vue'
 </script>
 
 <template>
@@ -10,7 +11,8 @@ import ForLoopAndList from './ForLoopAndList.vue'
     <h1>ALL COMPONENTS</h1>
     <!-- <GettingInputValue /> -->
     <!-- <ifElse /> -->
-    <ForLoopAndList />
+    <!-- <ForLoopAndList /> -->
+    <PassingDataParentToChild />
   </div>
 </template>
 
