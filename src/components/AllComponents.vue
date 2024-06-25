@@ -4,6 +4,7 @@ import GettingInputValue from './GettingInputValue.vue'
 import ifElse from './ifElse.vue'
 import ForLoopAndList from './ForLoopAndList.vue'
 import PassingDataParentToChild from './PassingDataParentToChild.vue'
+import CssClassBinding from './CssClassBinding.vue'
 </script>
 
 <template>
@@ -12,7 +13,8 @@ import PassingDataParentToChild from './PassingDataParentToChild.vue'
     <!-- <GettingInputValue /> -->
     <!-- <ifElse /> -->
     <!-- <ForLoopAndList /> -->
-    <PassingDataParentToChild />
+    <!-- <PassingDataParentToChild /> -->
+    <CssClassBinding />
   </div>
 </template>
 
