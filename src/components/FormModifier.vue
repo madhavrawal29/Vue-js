@@ -12,7 +12,8 @@ const data = ref('')
     <!-- <input type="text" placeholder="remove spaces" v-model.trim="data" /> -->
     <!-- remove spaces -->
     <!-- <h3>Your text:{{ data }}</h3> -->
-    <input type="text" placeholder="Data Type" v-model.number="data" />
+    <!-- <input type="text" placeholder="Data Type" v-model.number="data" /> -->
+    <input type="text" placeholder="Data Type" v-model.number.lazy="data" />
     <h3>Data type : {{ typeof data }}</h3>
   </div>
 </template>
