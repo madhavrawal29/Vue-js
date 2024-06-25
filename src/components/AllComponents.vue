@@ -5,6 +5,7 @@ import ifElse from './ifElse.vue'
 import ForLoopAndList from './ForLoopAndList.vue'
 import PassingDataParentToChild from './PassingDataParentToChild.vue'
 import CssClassBinding from './CssClassBinding.vue'
+import FormModifier from './FormModifier.vue'
 </script>
 
 <template>
@@ -14,7 +15,8 @@ import CssClassBinding from './CssClassBinding.vue'
     <!-- <ifElse /> -->
     <!-- <ForLoopAndList /> -->
     <!-- <PassingDataParentToChild /> -->
-    <CssClassBinding />
+    <!-- <CssClassBinding /> -->
+    <FormModifier />
   </div>
 </template>
 
