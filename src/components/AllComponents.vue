@@ -6,6 +6,7 @@ import ForLoopAndList from './ForLoopAndList.vue'
 import PassingDataParentToChild from './PassingDataParentToChild.vue'
 import CssClassBinding from './CssClassBinding.vue'
 import FormModifier from './FormModifier.vue'
+import NonPropsData from './NonPropsData.vue'
 </script>
 
 <template>
@@ -16,7 +17,8 @@ import FormModifier from './FormModifier.vue'
     <!-- <ForLoopAndList /> -->
     <!-- <PassingDataParentToChild /> -->
     <!-- <CssClassBinding /> -->
-    <FormModifier />
+    <!-- <FormModifier /> -->
+    <NonPropsData name="Adi" id="prop-id" />
   </div>
 </template>
 
