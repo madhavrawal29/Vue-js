@@ -7,6 +7,7 @@ import PassingDataParentToChild from './PassingDataParentToChild.vue'
 import CssClassBinding from './CssClassBinding.vue'
 import FormModifier from './FormModifier.vue'
 import NonPropsData from './NonPropsData.vue'
+import GetAPI from './GetAPI.vue'
 </script>
 
 <template>
@@ -18,7 +19,8 @@ import NonPropsData from './NonPropsData.vue'
     <!-- <PassingDataParentToChild /> -->
     <!-- <CssClassBinding /> -->
     <!-- <FormModifier /> -->
-    <NonPropsData name="Adi" id="prop-id" />
+    <!-- <NonPropsData name="Adi" id="prop-id" /> -->
+    <GetAPI />
   </div>
 </template>
 
