@@ -20,7 +20,7 @@ import GetAPI from './GetAPI.vue'
     <!-- <CssClassBinding /> -->
     <!-- <FormModifier /> -->
     <!-- <NonPropsData name="Adi" id="prop-id" /> -->
-    <GetAPI />
+    <!-- <GetAPI /> -->
   </div>
 </template>
 

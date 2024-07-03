@@ -32,6 +32,10 @@ onMounted(async () => {
 </template>
 
 <style scoped>
+h1 {
+  font-size: 40px;
+  text-align: center;
+}
 .list-items {
   display: flex;
   li {
