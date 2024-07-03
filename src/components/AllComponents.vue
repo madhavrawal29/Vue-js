@@ -8,6 +8,7 @@ import CssClassBinding from './CssClassBinding.vue'
 import FormModifier from './FormModifier.vue'
 import NonPropsData from './NonPropsData.vue'
 import GetAPI from './GetAPI.vue'
+import PostAPI from './PostAPI.vue'
 </script>
 
 <template>
@@ -21,6 +22,7 @@ import GetAPI from './GetAPI.vue'
     <!-- <FormModifier /> -->
     <!-- <NonPropsData name="Adi" id="prop-id" /> -->
     <!-- <GetAPI /> -->
+    <PostAPI />
   </div>
 </template>
 
